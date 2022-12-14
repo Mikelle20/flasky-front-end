@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 // breed
 
 const Dog = (props) => {
-    // props.name => value 
+    // props.key => value 
     return (<ul>
             {props.name}
             <li>age: {props.age}</li>
@@ -15,9 +15,9 @@ const Dog = (props) => {
 }
 
 Dog.propTypes = {
+    age: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     breed: PropTypes.string.isRequired,
-    age: PropTypes.string.isRequired,
     cuteness: PropTypes.string.isRequired,
 }
 

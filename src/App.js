@@ -3,19 +3,19 @@ import DogList from "./components/DogList";
 
 const dogData = [
   {
-    name: "honey",
+    name: "Telfar",
     age: "1",
     cuteness: "1000000",
-    breed: "wiener"
+    breed: "French Bulldog"
   },
   {
-    name: "juicy",
-    age: 3,
+    name: "Juicy",
+    age: "3",
     cuteness: "500000",
     breed: "pug"
   },
   {
-    name: "couture",
+    name: "Couture",
     age: "4",
     cuteness: "70000",
     breed: "poodle"
