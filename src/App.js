@@ -6,7 +6,7 @@ function App() {
   const name = "Panthers";
   return (
     <div className="App">
-      Hello! It's Tuesday in {name} Roundtable!
+      Hello! It's Tuesday in {name} Roundtable! Hopefully this works
       <DogList />
     </div>
   );
